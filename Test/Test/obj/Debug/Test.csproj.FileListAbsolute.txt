@@ -1,0 +1,13 @@
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\bin\Debug\Test.exe.config
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\bin\Debug\Test.exe
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\bin\Debug\Test.pdb
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\obj\Debug\MainWindow.baml
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\obj\Debug\MainWindow.g.cs
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\obj\Debug\App.g.cs
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\obj\Debug\Test_MarkupCompile.cache
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\obj\Debug\Test.g.resources
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\obj\Debug\Test.Properties.Resources.resources
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\obj\Debug\Test.exe
+c:\users\alexandra.briese\documents\visual studio 2012\Projects\Test\Test\obj\Debug\Test.pdb
