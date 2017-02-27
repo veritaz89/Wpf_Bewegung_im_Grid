@@ -22,11 +22,15 @@ namespace Test
     {
         public MainWindow()
         {
+            
             InitializeComponent();
+            Testfigure.Visibility = Visibility.Hidden;
         }
-
+        int counterKlicks = 0;
+        
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            
             int column = Grid.GetColumn(Testfigure);
             int row = Grid.GetRow(Testfigure);
             if (column > 0)
@@ -35,20 +39,35 @@ namespace Test
             }
             else
             {
-                if (row < 2)
+                if (row > 0 )
                 {
                     Grid.SetColumn(Testfigure, 3);
-                    Grid.SetRow(Testfigure, row + 1);
+                    Grid.SetRow(Testfigure, row - 1);
                 }
-                else if (row == 2 && column == 0)
+                else if (row == 0 && column == 0)
                 {
                     MessageBox.Show("Sie sind am Ende");
                     Application.Current.Shutdown();
                 }
             }
-            string c = Convert.ToString(column); 
+            column = Grid.GetColumn(Testfigure);
+            row = Grid.GetRow(Testfigure);
+            string c = Convert.ToString(column);
+            string r = Convert.ToString(row);
+            label1.Content = "Column:"+c;
+            label2.Content = "Rows:"+r;
+            counterKlicks++;
+            label3.Content = "Anzahl der Klicks:"+ Convert.ToString(counterKlicks);
             //MessageBox.Show(c);
+            
+        }
 
+        private void Btn_Start_Click(object sender, RoutedEventArgs e)
+        {
+            Grid.SetColumn(Testfigure, 3);
+            Grid.SetRow(Testfigure, 2);
+
+            Testfigure.Visibility = Visibility.Visible;
         }
 
       
